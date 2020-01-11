@@ -11,6 +11,7 @@
 
 [core]
   pager = less -FRSX
+	editor = '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -n -w
 
 [alias]
   co = checkout
@@ -45,3 +46,6 @@
 
 [branch "master"]
   mergeoptions = --no-edit
+[user]
+	email = david.oad@gmail.com
+	name = David Osuna Azcona Dominguez
